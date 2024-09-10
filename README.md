@@ -1,7 +1,3 @@
-Based on your details, here’s a draft for your README file:
-
----
-
 # Squad Shuffle
 
 ## App Overview
