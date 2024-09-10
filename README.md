@@ -41,7 +41,10 @@ Note: Since this is an iOS app and not listed on the App Store, you'll need to r
 4. **Build Games:** Press the "Build Games" button to generate random matchups.
 5. **Manage Player Status:** Use swipe actions to manually designate players' statuses for future games.
 
-## Screenshots or Demos
+## Future Plans
+
+- **Premium Features:** Introduce skill-based matchmaking and tournament modes.
+- **Group Tracking:** Save and manage groups of players, track their stats, and monitor wins and losses.
 
 ## Screenshots
 
@@ -51,7 +54,4 @@ Note: Since this is an iOS app and not listed on the App Store, you'll need to r
 ![Image 4](SquadShuffleImages/image4.png)
 ![Image 5](SquadShuffleImages/image5.png)
 
-## Future Plans
 
-- **Premium Features:** Introduce skill-based matchmaking and tournament modes.
-- **Group Tracking:** Save and manage groups of players, track their stats, and monitor wins and losses.
