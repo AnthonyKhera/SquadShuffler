@@ -44,10 +44,10 @@ Note: Since this is an iOS app and not listed on the App Store, you'll need to r
 
 ## Screenshots
 
+![Image 5](SquadShuffleImages/image5.png)
 ![Image 1](SquadShuffleImages/image1.png)
 ![Image 2](SquadShuffleImages/image2.png)
 ![Image 3](SquadShuffleImages/image3.png)
 ![Image 4](SquadShuffleImages/image4.png)
-![Image 5](SquadShuffleImages/image5.png)
 
 
