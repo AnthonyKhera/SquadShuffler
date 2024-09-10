@@ -11,6 +11,7 @@
 ![Image 2](SquadShuffleImages/image2.png)
 ![Image 3](SquadShuffleImages/image3.png)
 ![Image 4](SquadShuffleImages/image4.png)
+![Demo](SquadShuffleImages/demo.gif)
 
 ## Features
 
