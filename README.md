@@ -7,11 +7,13 @@
 ## Screenshots
 
 ![Image 1](SquadShuffleImages/image1.png)
-![Image 3](SquadShuffleImages/image3.png)\n
+![Image 3](SquadShuffleImages/image3.png)
+
 ![Image 4](SquadShuffleImages/image4.png)
-![Image 5](SquadShuffleImages/image5.png)\n
+![Image 5](SquadShuffleImages/image5.png)
+
 ![Image 2](SquadShuffleImages/image2.png)
-![Image 6](SquadShuffleImages/image6.png)\n
+![Image 6](SquadShuffleImages/image6.png)
 
 ## Features
 
