@@ -1,12 +1,16 @@
-Based on your details, here’s a draft for your README file:
-
----
-
 # Squad Shuffle
 
 ## App Overview
 
 **Squad Shuffle** is a versatile app designed to simplify team matchmaking for group games. Whether you're playing pickleball, spikeball, or any other team-based game, this app provides an intuitive way to create balanced teams. Unlike other match randomizers that offer minimal functionality or clunky interfaces, Squad Shuffle enhances your gaming experience with a user-friendly design and advanced features tailored for group play.
+
+## Screenshots
+
+![Image 5](SquadShuffleImages/image5.png)
+![Image 1](SquadShuffleImages/image1.png)
+![Image 2](SquadShuffleImages/image2.png)
+![Image 3](SquadShuffleImages/image3.png)
+![Image 4](SquadShuffleImages/image4.png)
 
 ## Features
 
@@ -41,13 +45,9 @@ Note: Since this is an iOS app and not listed on the App Store, you'll need to r
 4. **Build Games:** Press the "Build Games" button to generate random matchups.
 5. **Manage Player Status:** Use swipe actions to manually designate players' statuses for future games.
 
-## Screenshots or Demos
-
-- [Screenshot 1](#) 
-- [Screenshot 2](#)
-- [Demo Video](#)
-
 ## Future Plans
 
 - **Premium Features:** Introduce skill-based matchmaking and tournament modes.
 - **Group Tracking:** Save and manage groups of players, track their stats, and monitor wins and losses.
+
+
