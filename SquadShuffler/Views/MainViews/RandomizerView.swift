@@ -159,7 +159,7 @@ struct RandomizerView: View {
                 )
                 {
                     if gameViewModel.participants.isEmpty {
-                        ContentUnavailableView("No Players Selected", systemImage: "person.slash", description: Text("Select the players you would like to particpate today."))
+                        ContentUnavailableView("No Participants", systemImage: "person.2.slash.fill", description: Text("Select the players you would like to particpate today."))
                             .listRowSeparator(.hidden)
                     } else {
                         ForEach(gameViewModel.participants, id: \.id) { player in

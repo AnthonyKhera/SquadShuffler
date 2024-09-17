@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum AppErrors: Error, LocalizedError {
+enum AppErrors: Error, LocalizedError, Equatable {
     case tooManyPlaying
     case notEnoughParticipants
     case tooManySitting
@@ -16,20 +16,20 @@ enum AppErrors: Error, LocalizedError {
     var errorDescription: String? {
         switch self {
         case .notEnoughParticipants:
-            "Not Enough Participants"
+            return "Not Enough Participants"
         case .tooManyPlaying:
-            "Too Many Playing"
+            return "Too Many Playing"
         case .tooManySitting:
-            "Too Many Sitting"
+            return "Too Many Sitting"
         case .defaultError(let error):
-            error.localizedDescription
+            return error.localizedDescription
         }
     }
     
     var failureReason: String {
         switch self {
         case .notEnoughParticipants:
-            return "Not enough participants to continue. Please adjust your game settings or select more particpants."
+            return "Not enough participants to continue. Please adjust your game settings or select more participants."
         case .tooManyPlaying:
             return "Too many participants set to play. Please adjust your game settings or designate fewer participants."
         case .tooManySitting:
@@ -41,4 +41,18 @@ enum AppErrors: Error, LocalizedError {
             return "An unknown error occurred."
         }
     }
+    
+    static func == (lhs: AppErrors, rhs: AppErrors) -> Bool {
+        switch (lhs, rhs) {
+        case (.tooManyPlaying, .tooManyPlaying),
+             (.notEnoughParticipants, .notEnoughParticipants),
+             (.tooManySitting, .tooManySitting):
+            return true
+        case (.defaultError, .defaultError):
+            return false // Since `Error` doesn't conform to `Equatable`, we consider two `.defaultError` cases as non-equal.
+        default:
+            return false
+        }
+    }
 }
+

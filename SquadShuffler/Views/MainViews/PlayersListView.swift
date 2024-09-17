@@ -60,7 +60,7 @@ struct PlayersListView: View {
                 }
                 Section(header: Text("Remaining Players")) {
                     if gameViewModel.allPlayers.isEmpty {
-                        ContentUnavailableView("No Players", systemImage: "person.2.slash.fill", description: Text("You haven't added any players yet!\nAdd some players to get started."))
+                        ContentUnavailableView("No Players", systemImage: "person.slash.fill", description: Text("Add some players to get started."))
                     } else {
                         ForEach(gameViewModel.allPlayers.filter { !$0.isSelected }, id: \.id) { player in
                             PlayerListCell(player: player)

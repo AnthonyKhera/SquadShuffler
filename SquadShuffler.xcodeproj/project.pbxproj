@@ -13,7 +13,6 @@
 		013360192C8A0ED500F78E0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013360182C8A0ED500F78E0D /* Preview Assets.xcassets */; };
 		0133601B2C8A0ED500F78E0D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0133601A2C8A0ED500F78E0D /* Persistence.swift */; };
 		0133601E2C8A0ED500F78E0D /* SquadShuffler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0133601C2C8A0ED500F78E0D /* SquadShuffler.xcdatamodeld */; };
-		013360282C8A0ED500F78E0D /* SquadShufflerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013360272C8A0ED500F78E0D /* SquadShufflerTests.swift */; };
 		013360322C8A0ED500F78E0D /* SquadShufflerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013360312C8A0ED500F78E0D /* SquadShufflerUITests.swift */; };
 		013360342C8A0ED500F78E0D /* SquadShufflerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013360332C8A0ED500F78E0D /* SquadShufflerUITestsLaunchTests.swift */; };
 		013360442C8A2C9E00F78E0D /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013360432C8A2C9E00F78E0D /* GameViewModel.swift */; };
@@ -32,6 +31,7 @@
 		013360642C8AAE0A00F78E0D /* PlayersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013360612C8AAE0A00F78E0D /* PlayersListView.swift */; };
 		013360652C8AAE0A00F78E0D /* RandomizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013360622C8AAE0A00F78E0D /* RandomizerView.swift */; };
 		013360672C8FCF3900F78E0D /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013360662C8FCF3900F78E0D /* SplashScreenView.swift */; };
+		01625F092C99C03A00DE3053 /* GameViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01625F082C99C03A00DE3053 /* GameViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +60,6 @@
 		0133601A2C8A0ED500F78E0D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		0133601D2C8A0ED500F78E0D /* SquadShuffler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SquadShuffler.xcdatamodel; sourceTree = "<group>"; };
 		013360232C8A0ED500F78E0D /* SquadShufflerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquadShufflerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		013360272C8A0ED500F78E0D /* SquadShufflerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadShufflerTests.swift; sourceTree = "<group>"; };
 		0133602D2C8A0ED500F78E0D /* SquadShufflerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquadShufflerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		013360312C8A0ED500F78E0D /* SquadShufflerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadShufflerUITests.swift; sourceTree = "<group>"; };
 		013360332C8A0ED500F78E0D /* SquadShufflerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadShufflerUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -80,6 +79,7 @@
 		013360612C8AAE0A00F78E0D /* PlayersListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersListView.swift; sourceTree = "<group>"; };
 		013360622C8AAE0A00F78E0D /* RandomizerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomizerView.swift; sourceTree = "<group>"; };
 		013360662C8FCF3900F78E0D /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		01625F082C99C03A00DE3053 /* GameViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,7 +153,7 @@
 		013360262C8A0ED500F78E0D /* SquadShufflerTests */ = {
 			isa = PBXGroup;
 			children = (
-				013360272C8A0ED500F78E0D /* SquadShufflerTests.swift */,
+				01625F082C99C03A00DE3053 /* GameViewModelTests.swift */,
 			);
 			path = SquadShufflerTests;
 			sourceTree = "<group>";
@@ -386,7 +386,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				013360282C8A0ED500F78E0D /* SquadShufflerTests.swift in Sources */,
+				01625F092C99C03A00DE3053 /* GameViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
