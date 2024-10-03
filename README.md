@@ -4,6 +4,9 @@
 
 **Squad Shuffle** is a versatile app designed to simplify team matchmaking for group games. Whether you're playing pickleball, spikeball, or any other team-based game, this app provides an intuitive way to create balanced teams. Unlike other match randomizers that offer minimal functionality or clunky interfaces, Squad Shuffle enhances your gaming experience with a user-friendly design and advanced features tailored for group play.
 
+## Demo
+Check out the demo video for Squad Shuffle: [Video Demo](https://youtu.be/mk1K-3MAdJM)
+
 ## Screenshots
 
 ![Image 1](SquadShuffleImages/image1.png)
